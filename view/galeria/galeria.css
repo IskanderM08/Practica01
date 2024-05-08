@@ -6,6 +6,11 @@ body {
     color: #333;
 }
 
+.dark-mode body{
+    background-color: #2e2e2e;
+    color: #fff
+}
+
 header {
     background-color: #333;
     color: #fff;
@@ -38,6 +43,11 @@ nav ul li a {
 
 main {
     padding: 20px;
+}
+
+.dark-mode main{
+    background-color: #2e2e2e;
+    color: #fff;
 }
 
 section {

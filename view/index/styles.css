@@ -6,6 +6,11 @@ body {
     color: #333;
 }
 
+.dark-mode body{
+    background-color: #2e2e2e;
+    color: #fff;
+}
+
 header {
     background-color: #333;
     color: #fff;
@@ -32,12 +37,15 @@ nav ul li {
 }
 
 nav ul li a {
-    color: #fff;
     text-decoration: none;
 }
 
 main {
     padding: 20px;
+}
+
+.dark-mode main{
+    background-color: #2e2e2e;
 }
 
 section {
@@ -46,6 +54,11 @@ section {
     padding: 20px;
     margin-bottom: 50px;
     border: 1px solid #ccc;
+}
+
+.dark-mode section{
+    background-color: #2e2e2e;
+    color: #fff
 }
 
 footer {
@@ -59,6 +72,10 @@ section h2 {
     color: #333;
     border-bottom: 1px solid #ccc;
     padding-bottom: 5px;
+}
+
+.dark-mode section h2{
+    color: #fff
 }
 
 section ul {
@@ -77,11 +94,25 @@ section ul li {
     display: flex;
 }
 
+.dark-mode #informacion {
+    background-color: #2e2e2e;
+}
+
 #biografia{
     flex: 1;
+}
+
+.dark-mode #biografia{
+    background-color: #2e2e2e;
+    color: #fff
 }
 
 #informacion-personal {
     flex: 1;
     padding-left: 20px;
+}
+
+.dark-mode #informacion-personal {
+    background-color: #2e2e2e;
+    color: #fff
 }
